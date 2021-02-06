@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            .must_do_paragraphs {
+                color:rgb(49, 73, 181);
+            }
+            h2 {
+                color:rgb(201, 78, 201);
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>
+        Start imagining your New Zealand journey
+        </h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Queenstown_from_Bob%27s_Peak.jpg/300px-Queenstown_from_Bob%27s_Peak.jpg" alt="New Zealand" width="300">
+        
+        <h2>Must do experiences </h2>
+        <ul>
+            <li><h3>Explore Waitomo Caves</h3></li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Green_Glow_Caves_in_New_Zealand_%286563152219%29.jpg" width="300">
+            <p class="must_do_paragraphs" >Rocky outcrops are the first sign that another world awaits below Waitomo, but the big reveal is almost beyond belief. This amazing maze of limestone caves – lined with stalagmites, stalactites, and galaxies of glowworms – can be explored on a guided walk or boat tour, or a thrilling Black Water Rafting trip through subterranean waterways.</p>
+            <li><h3>Eat and drink your way through Wellington</h3></li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Cable_Car%2C_Wellington%2C_Nueva_Zelanda_-_panoramio_%281%29.jpg" width="300">
+            <p class="must_do_paragraphs">New Zealand's quirky little capital has an outstanding foodie scene.<br>
+Stroll down Hannah's Laneway to taste Wellington-made artisanal peanut butter at Fix and Fogg(opens in new window), locally-famous salted caramel cookies at Leeds Street Bakery(opens in new window), or seasonal dishes paired with organic wines at Shepherd</p>
+            <li><h3>Walk the Pouakai Crossing</h3> </li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Pouakai_Range%2C_New_Zealand%2C_February_2016_05.JPG" width="300">
+        </ul>
+        <h2>Must-do Free Experiences</h2>
+        <ol>
+            <li>Watch Oceans Battle at Cape Reinga</li>
+            <li>Chase the Fish at Goat Island</li>
+        </ol>
+        
+    </body>
+</html>
