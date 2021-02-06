@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        #thead {
+            background-color:rgb(152, 193, 240);
+        }
+        #tbody {
+            background-color:rgb(223, 241, 245);
+        }
+        .steps {
+            color:rgb(45, 119, 204);
+        }
+        </style>
+    </head>
+    <body>
+       
+        <h1>Danagul's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#apple_cake">Apple Cake</a></li>
+        </ol>
+        
+        <h2 id="apple_cake">Homemade Apple Cake</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Apple_cake_with_vanilla_ice_cream_2.jpg/300px-Apple_cake_with_vanilla_ice_cream_2.jpg">
+        <ul>
+            <li>Time: 1h 30min</li>
+            <li>Serves: 8</li>
+        </ul>
+        
+        <table>
+            <thead id="thead">
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <tr>
+                    <th>cup butter</th>
+                    <th>1/2</th>
+                </tr>
+                <tr>
+                    <th>cup sugar </th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th>teaspoon vanilla </th>
+                    <th>1/4</th>
+                </tr>
+                <tr>
+                    <th>cups all-purpose flour</th>
+                    <th>1/4</th>
+                </tr>
+                <tr>
+                    <th>teaspoon baking soda </th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th>teaspoon ground cinnamon </th>
+                    <th>1</th>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong class="steps">Step 1:</strong> Heat oven to 350°F. Spray 9-inch round cake pan with baking spray with flour. <br>
+        <strong class="steps">Step 2:</strong> In large bowl, beat butter and sugar with electric mixer on medium speed until light and fluffy. Beat in eggs, one at a time. Stir in vanilla, flour, baking soda, cinnamon and salt. Stir in apples and walnuts. Spoon into pan. <br>
+         <strong class="steps">Step 3:</strong> Bake 40 to 45 minutes or until toothpick inserted in center of cake comes out clean. Cool 10 minutes. Remove from pan to cooling rack. Cool 10 minutes longer. Serve warm with ice cream. 
+</p>
+        
+    <p><em>Source: <a href="https://www.bettycrocker.com/recipes/homemade-apple-cake/5427daa2-21ac-4b09-bb6e-4c24437500ce">Original website of Apple Cake</a></em></p>
+    
+    </body>
+</html>

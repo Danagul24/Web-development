@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+        body {
+            background:rgb(173, 5, 5);
+            font-family:seriaf;
+            font-style:italic;
+        }
+            #invite_body{
+                width:300px;
+                position:absolute;
+                background-color:rgb(250, 227, 233);
+                right:80px;
+                border:10px ridge white;
+                margin:10px;
+                padding:5px;
+            }
+            p,h1, ul {
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="invite_body">
+        <h1>You're invited!</h1>
+        <p>To a Formal Dinner<br>
+            Hosted by:<br>
+            Tina Williams<br><br>
+            December 9, 2015<br>
+            7:00 p.m - 9:00 p.m<br><br>
+            At Creasant Hotel<br>
+            2520 Medow Lane<br><br>
+            R&VP to Tina<br>
+            555-5555-555
+        </p>
+        
+        <p>The details:</p>
+        <ul>
+            <li>drinks & food</li>
+            <li>white dress code</li>
+        </ul>
+        </div>
+    </body>
+</html>
