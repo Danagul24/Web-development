@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(248, 248, 248);
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+.img-control{
+   float: left;
+   margin-top: 50px;
+   margin-left: 100px;
+}
+.login-block{
+    background-color: white;
+    float: right;
+    margin-top: 60px;
+    margin-right: 100px;
+    width: 345px;
+    height: 374px; 
+    border-color: #DCDCDC; 
+    border-style: solid;
+    padding: 3px;
+    border-width: thin;
+}
+a{
+    text-decoration: none;
+}
+form {
+    margin-top: 20px;
+}
+form input{
+    padding: 12px 10px;
+    width: 270px;
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 3px; 
+    background-color: rgb(248, 248, 248);
+    font-size: 12px;
+    margin: 5px 5px 0 40px;
+}
+#label {
+    width:270px;
+    height:90px;
+    margin-left: 28px;
+}
+#or{
+    font-size: 12px;
+    color: gray;
+    margin-left: 40px;
+    margin-top: 15px;
+    padding-left: 0;
+}
+#entry-facebook-link{
+    font-weight: 400;
+    font-size: 12px;
+    font-weight: bold;
+    color: #385185;
+    margin-left: 60px;
+}
+#forgot-password-link {
+    font-weight: 400;
+    font-size: 11px;
+    color: #385185;
+    margin-left: 90px;
+}
+#enter-button{
+    width: 271px;
+    height: 31px;
+    color:white;
+    font-size: 12px;
+    background-color: rgba(var(--d69,0,149,246),.3);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 40px;  
+}
+.register-block{
+    float: left;
+    width: 329px;
+    height: 40px; 
+    margin-top: 10px;
+    margin-left: 36px;
+    padding:10px;
+    background-color: white;
+    border-color: #DCDCDC;
+    border-style: solid;
+    text-align: center;
+    border-width: thin;
+    font-size: 13px; 
+}
+#sign-up{
+    font-weight: bold;
+    color: #0095f6;
+}
+.app {
+    float:left;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 55px;
+    padding: 10px;
+}
+footer {
+    width:auto;
+    height: 180px;
+    font-size: 12px;
+}
+footer ul {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type:none;
+}
