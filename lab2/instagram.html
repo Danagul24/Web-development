@@ -1,0 +1,101 @@
+<html>
+  <head>
+      <title>Instagram</title>
+      <link href="static/css/instagram.css" rel="stylesheet" type="text/css">
+      <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="content">
+        <div class="img-control">
+        <img src="static/img/phone.png" />    
+        </div>
+        <div class="login-block">
+            <img id="label" src="static/img/label.jpg" >
+            <form>
+                <input type="text" placeholder="Номер телефона, имя пользователя или..." > 
+                <input type="password" placeholder="Пароль" >    
+            </form>
+            <a href="https://www.instagram.com/"> <input type="submit" value="Войти" id="enter-button" ></a>
+            <p id="or">  _________________  ИЛИ  ________________ <br><br><br>
+                <a id="entry-facebook-link" href = "https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%2522ingmy1162p67i3dmtfu1opjvud189ijeh1fqy133qmiiwd1ebrvu0%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Dru_RU%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D54044ad8-aaf9-4f79-8e73-0312605e79af%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%2522ingmy1162p67i3dmtfu1opjvud189ijeh1fqy133qmiiwd1ebrvu0%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%23_%3D_&display=page&locale=ru_RU&pl_dbl=0"> <img id = "facebook" src = "https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico" alt = "facebook picture" width = "16" height = "16"><span id = "entry-Facebook"> Войти через Facebook</span></a><br><br>
+                <a id="forgot-password-link" href = "https://www.instagram.com/accounts/password/reset/"> <span> Забыли пароль? </span> </a>
+            </p>
+        </div>
+        <div class="register-block">
+            <p id = "no-acc"> У вас ещё нет аккаунта?
+                <a href = "https://www.instagram.com/accounts/emailsignup/"><span id="sign-up">Зарегистрироваться</span> </a>
+            </p>
+        </div>
+        <div class="app">
+            <p>Установите приложение</p>
+            <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo"><img  src = "static/img/apple.png" width = "142" height = "40"></a>
+            <a href=" https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3D42F02594-829C-426A-9B94-45908ED2A147%26utm_content%3Dlo%26utm_medium%3Dbadge"><img src = "static/img/google.png" width = "142" height = "40"></a>
+        </div>
+    </div>
+    <footer>
+        <!--
+        <ul class="list1">
+            <li>
+                <a href="https://about.instagram.com/" class="all" >Информация</a>
+            </li>
+            <li>
+                <a href="https://about.instagram.com/blog" class="all">Блог</a>
+            </li>
+            <li>
+                <a href="https://about.instagram.com/about-us/careers" class="all">Вакансии</a>
+            </li>
+            <li>
+                <a href="https://help.instagram.com/" class="all">Помощь</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/developer/" class="all">API</a>
+            </li>
+            <li>
+                <a href="https://help.instagram.com/519522125107875" class="all">Конфиденциальность</a>
+            </li>
+            <li>
+                <a href="https://help.instagram.com/581066165581870" class="all">Условия</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/directory/profiles/" class="all">Популярные аккаунты</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/directory/hashtags/" class="all">Хэштеги</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/explore/locations/" class="all">Места</a>
+            </li>
+        </ul>
+        <ul class="list2">
+            <li>
+                <a href="https://www.instagram.com/topics/beauty/" class="all">Красота</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/topics/dance-and-performance/" class="all">Танцы и выступления</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/topics/fitness/" class="all">Фитнес</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/topics/food-and-drink/" class="all">Еда и напитки</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/topics/home-and-garden/" class="all">Дом и сад</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/topics/music/" class="all">Музыка</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/topics/visual-arts/" class="all">Изобразительное искусство</a>
+            </li>
+        </ul>
+        <ul class="list3">
+            <li>Русский</li>
+            <li>© Instagram от Facebook, 2021</li>
+        </ul>
+    -->
+    </footer>
+  </body>
+  
+
+</html>
